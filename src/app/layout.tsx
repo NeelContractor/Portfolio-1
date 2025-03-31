@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Neel's Portfolio",
+  title: "Neeeel's Portfolio",
   description: "All my History and Philosophy",
 };
 
