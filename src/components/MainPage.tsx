@@ -31,7 +31,7 @@ export default function MainPage() {
             </div>
             <div className="pb-10">
                 <h3 className="font-bold text-xl py-2">About</h3>
-                <p className="text-gray-300">I'm a self-taught programmer passionate about Solana blockchain development and cutting-edge technology. With a deep love for computers, sci-fi and mystery movies, I thrive on building innovative solutions in the decentralized world</p>
+                <p className="text-gray-300">I&#39;m a self-taught programmer passionate about Solana blockchain development and cutting-edge technology. With a deep love for computers, sci-fi and mystery movies, I thrive on building innovative solutions in the decentralized world</p>
             </div>
             <div className="pb-10">
                 <h3 className="font-bold text-xl py-2">Cool places I worked at</h3>
@@ -44,7 +44,7 @@ export default function MainPage() {
             <div className="pb-10">
                 <div className="pb-5">
                     <h1 className="flex justify-center text-4xl font-bold">Check out my latest work</h1>
-                    <h3 className="flex justify-center text-xl text-gray-300">I've built some stuff, here are some that I like.</h3>
+                    <h3 className="flex justify-center text-xl text-gray-300">I&#39;ve built some stuff, here are some that I like.</h3>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                     <ProjectCard 
@@ -77,7 +77,7 @@ export default function MainPage() {
             <div className="pb-10">
                 <h3 className="font-bold text-xl py-2">Skills</h3>
                 <div className="flex gap-2">
-                    <Badge className="bg-white text-black py-1 px-3" variant="outline">React</Badge>
+                    <Badge className="bg-white text-black py-1 px-3" variant="outline">Reactjs</Badge>
                     <Badge className="bg-white text-black py-1 px-3" variant="outline">Nextjs</Badge>
                     <Badge className="bg-white text-black py-1 px-3" variant="outline">Nodejs</Badge>
                     <Badge className="bg-white text-black py-1 px-3" variant="outline">Typescript</Badge>
