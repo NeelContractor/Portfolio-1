@@ -21,7 +21,7 @@ export default function ProjectCard({ websiteName, websiteImage, websiteImgAlt, 
                 <p className="py-1 text-sm text-gray-400">{description}</p>
                 <div className="flex flex-wrap gap-1">
                     {frameworkTag.map((tag, index) => (
-                        <Badge key={index} className="bg-[#242428]" variant="outline">{tag}</Badge>
+                        <Badge key={index} className="bg-[#242428] text-white border-black" variant="outline">{tag}</Badge>
                     ))}
                 </div>
                 <div className="py-1">
