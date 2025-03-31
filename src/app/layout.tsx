@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { FloatingDock } from "@/components/ui/floating-dock";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,9 +26,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
       >
         {children}
+        <FloatingDock
+          desktopClassName="fixed bottom-0 left-1/2 transform -translate-x-1/2 mb-5"
+          items={[
+            { title: "Home", icon: <img src="/home_icon_white.png" alt="Home Icon" className="text-white" />, href: "/" },
+            { title: "Blog", icon: <img src="/blog_icon_white.png" alt="Blog Icon" />, href: "/blog" },
+            { title: "Github", icon: <img src="/github_logo.png" alt="Github Icon" />, href: "/https://github.com/NeelContractor" },
+            { title: "Linkedin", icon: <img src="/linkedin_logo.png" alt="Linkedin Icon" />, href: "/" },
+            { title: "X", icon: <img src="/x_logo.png" alt="X Icon" />, href: "/" },
+            { title: "Mail", icon: <img src="/mail_logo.png" alt="Mail Icon" />, href: "/" },
+          ]}
+          
+        />
       </body>
     </html>
   );
