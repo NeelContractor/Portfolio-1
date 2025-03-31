@@ -17,7 +17,7 @@ export default function ProjectCard({ websiteName, websiteImage, websiteImgAlt, 
             </a>
             <div className="pl-1.5">
                 <h1 className="font-bold">{websiteName}</h1>
-                <p className=" font-light text-sm">{projectCompletedDate}</p>
+                <p className=" font-medium text-sm">{projectCompletedDate}</p>
                 <p className="py-1 text-sm text-gray-400">{description}</p>
                 <div className="flex flex-wrap gap-1">
                     {frameworkTag.map((tag, index) => (

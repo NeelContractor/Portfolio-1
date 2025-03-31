@@ -17,15 +17,15 @@ export default function MainPage() {
         }}
     >
         <div className="grid justify-center">
-            <div className="flex">
+            <div className="flex justify-between">
                 <div>
-                    <h1 className="flex font-sans text-6xl font-bold">Hi, Neel here</h1>
+                    <h1 className="flex justify-self-start font-sans text-6xl font-bold">Hi, Neel here</h1>
                     <p className="flex text-xl font-medium text-gray-300">21 year old something guy</p>
                 </div>
 
-                <div className="pl-20">
-                    <span className="relative flex shrink-0 overflow-hidden rounded-full size-36 border">
-                        <Image src={"/interstellar_Endurance-modified.png"} className="aspect-square h-full w-full" alt={"Pic"} width={100} height={100} />
+                <div className="pl-2 ">
+                    <span className="relative flex  shrink-0 overflow-hidden rounded-full size-36 border border-gray-800">
+                        <Image src={"/interstellar_Endurance-modified.png"} className="aspect-square h-full w-full " alt={"Pic"} width={100} height={100} />
                     </span>
                 </div>
             </div>
@@ -47,6 +47,14 @@ export default function MainPage() {
                     <h3 className="flex justify-center text-xl text-gray-300">I've built some stuff, here are some that I like.</h3>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
+                    <ProjectCard 
+                        websiteName={"Neel Web Based Wallet"} 
+                        websiteImage={"/WebWallet.png"} 
+                        websiteImgAlt={"Web Based Wallet pic"} 
+                        projectCompletedDate={"Sep 2024"} 
+                        description={"A Web Based Wallet on Both Solana and Ethereum. Easly create your account on Bloackchain."} 
+                        frameworkTag={["Solana web3.js", "Etherjs", "Nextjs", "Typescript", "Tailwindcss"]} 
+                        websiteLink={"https://web-based-wallet-better.vercel.app/"} />
                     <ProjectCard 
                         websiteName={"Token Launchpad"} 
                         websiteImage={"/TokenLaunchpad.png"} 
