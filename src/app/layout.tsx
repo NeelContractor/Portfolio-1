@@ -35,9 +35,9 @@ export default function RootLayout({
           items={[
             { title: "Home", icon: <Image src="/home_icon_white.png" alt="Home Icon" width={25} height={25} className="text-white" />, href: "/" },
             { title: "Blog", icon: <Image src="/blog_icon_white.png" alt="Blog Icon" width={25} height={25} />, href: "/blog" },
-            { title: "Github", icon: <Image src="/github_logo.png" alt="Github Icon" width={25} height={25} />, href: "/https://github.com/NeelContractor" },
-            { title: "Linkedin", icon: <Image src="/linkedin_logo.png" alt="Linkedin Icon" width={25} height={25} />, href: "/" },
-            { title: "X", icon: <Image src="/x_logo.png" alt="X Icon" width={25} height={25} />, href: "/https://x.com/100xneel" },
+            { title: "Github", icon: <Image src="/github_logo.png" alt="Github Icon" width={25} height={25} />, href: "https://github.com/NeelContractor" },
+            { title: "Linkedin", icon: <Image src="/linkedin_logo.png" alt="Linkedin Icon" width={25} height={25} />, href: "https://www.linkedin.com/in/neel-contractor-695400164/" },
+            { title: "X", icon: <Image src="/x_logo.png" alt="X Icon" width={25} height={25} />, href: "https://x.com/100xneel" },
             { title: "Mail", icon: <Image src="/mail_logo.png" alt="Mail Icon" width={25} height={25} />, href: "mailto:neelcontractor7@gmail.com" },
           ]}
           
