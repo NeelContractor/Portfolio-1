@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import Image from "next/image";
+import StarsCanvas from "@/components/StarBackground";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,6 +30,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
       >
+        <div className="fixed inset-0 z-[-1]">
+          <StarsCanvas />
+        </div>
         {children}
         <FloatingDock
           desktopClassName="fixed bottom-0 left-1/2 transform -translate-x-1/2 mb-5"
