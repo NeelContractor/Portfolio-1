@@ -72,6 +72,15 @@ export default function MainPage() {
                         frameworkTag={["Solana web3.js", "Nextjs", "Typescript", "Tailwindcss"]} 
                         websiteLink={"https://get-all-tokens-by-owner-week4-assignment.vercel.app/"} 
                     />
+                    <ProjectCard 
+                        websiteName={"TipLink"} 
+                        websiteImage={"/TiplinkSS.png"} 
+                        websiteImgAlt={"TipLink"} 
+                        projectCompletedDate={"Apr 2025"} 
+                        description={"Tiplink is a cloud based wallet on Solana. Where user keya are created with Google."} 
+                        frameworkTag={["Solana web3.js", "Nextjs", "Typescript", "Tailwindcss"]} 
+                        websiteLink={"https://tiplinkconnect.vercel.app/"} 
+                    />
                 </div>
             </div>
             <div className="pb-10">
