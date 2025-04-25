@@ -12,7 +12,7 @@ const StarBackground = (props: JSX.IntrinsicElements['points']) => {
   const ref = useRef<THREE.Points>(null);  
   const [sphere] = useState(() =>
     // random.inSphere(new Float32Array(5000), { radius: 1.2 })
-    random.inSphere(new Float32Array(15000), { radius: 1.2 })
+    random.inSphere(new Float32Array(5000), { radius: 1.2 }) // value was 15000 changed it to 5000 because there were a lot of dots.
   );
 
   useFrame((_, delta) => {

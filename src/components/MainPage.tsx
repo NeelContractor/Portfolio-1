@@ -81,6 +81,15 @@ export default function MainPage() {
                         frameworkTag={["Solana web3.js", "Nextjs", "Typescript", "Tailwindcss"]} 
                         websiteLink={"https://tiplinkconnect.vercel.app/"} 
                     />
+                    <ProjectCard 
+                        websiteName={"CoinFlip"} 
+                        websiteImage={"/coinflip.png"} 
+                        websiteImgAlt={"CoinFlip"} 
+                        projectCompletedDate={"Apr 2025"} 
+                        description={"CoinFlip is game on solana where users bet on heads or tails and if they won they get 2x bet."} 
+                        frameworkTag={["Solana web3.js", "Nextjs", "Typescript", "Tailwindcss"]} 
+                        websiteLink={"https://coin-flip-chi.vercel.app/"} 
+                    />
                 </div>
             </div>
             <div className="pb-10">
